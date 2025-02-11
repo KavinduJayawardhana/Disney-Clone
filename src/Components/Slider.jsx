@@ -40,7 +40,7 @@ function Slider() {
     <div className='flex overflow-x-auto w-full px-16 py-4 scrollbar-hide scroll-smooth' ref={elementRef}> 
         {movieList.map((item)=>(
             <img src={IMAGE_BASE_URL+item.backdrop_path} className='min-w-full  md:h-[310px] object-left-top
-            mr-5 rounded-md hover:border-[2px] border-gray-300 transition-all duration-100 ease-in'/>
+            mr-5 rounded-md hover:border-[1.5px] border-gray-300 transition-all duration-100 ease-in'/>
         ))}
     </div>
     </div>
